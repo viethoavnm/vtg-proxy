@@ -1,0 +1,30 @@
+{
+  "name": "spetrip-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for spetrip.com",
+  "bin": {
+    "micro-proxy": "./bin/micro-proxy"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "viethoavnm",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "arg": "^1.0.0",
+    "micro": "^9.0.2",
+    "node-fetch": "^1.7.3",
+    "spdy": "^4.0.0",
+    "ws": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tempfile": "^2.0.0",
+    "test-listen": "^1.1.0"
+  }
+}
